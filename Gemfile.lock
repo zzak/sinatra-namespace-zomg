@@ -1,0 +1,56 @@
+GIT
+  remote: git://github.com/sinatra/sinatra.git
+  revision: 5fcb1e1bd49c6b296927c2a25d8e47031c323008
+  specs:
+    sinatra (2.0.0.pre.alpha)
+      mustermann (~> 0.4)
+      rack (= 2.0.0.rc1)
+      rack-protection (~> 1.5)
+      tilt (~> 2.0)
+
+PATH
+  remote: .
+  specs:
+    sinatra-namespace (2.0.0)
+      sinatra
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.2.5)
+    json (1.8.3)
+    mustermann (0.4.0)
+      tool (~> 0.2)
+    rack (2.0.0.rc1)
+      json
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.4)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
+    tilt (2.0.5)
+    tool (0.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack-test
+  rspec
+  sinatra!
+  sinatra-namespace!
+
+BUNDLED WITH
+   1.12.5
